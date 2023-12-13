@@ -80,7 +80,7 @@ const Contact = () => {
               <GitHubIcon /> GitHub
             </motion.a>
           </div>
-          <formaction="https://formspree.io/f/xzblnldw" method="POST">
+          <form action="https://formspree.io/f/xzblnldw" method="POST">
             <motion.div
               className="fname"
               initial={{ opacity: 0, x: 50 }}
@@ -166,7 +166,7 @@ const Contact = () => {
             >
               Send Message
             </motion.button>
-          </formaction=>
+          </form>
         </div>
       </div>
     </div>
