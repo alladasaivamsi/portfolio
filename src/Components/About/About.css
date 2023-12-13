@@ -1,0 +1,106 @@
+.about {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--grey);
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.skillImage {
+  width: 8rem;
+  height: 8rem;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.skill-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.education_details {
+  width: 100%;
+  color: var(--black);
+  padding: 1.4rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px 2px var(--box-shadow-bottom),
+    10px 10px 10px 1px var(--box-shadow-top);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 2px solid var(--black);
+  word-wrap: break-word;
+  text-wrap: wrap;
+}
+
+.education {
+  position: relative;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  border-left: 5px solid var(--black);
+  padding: 2rem 3rem;
+}
+
+.education_details_title {
+  color: red;
+  padding-right: 1rem;
+}
+
+.schoolIcon1 {
+  position: absolute;
+  top: 3em;
+  left: -2rem;
+  background: var(--white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 50%;
+  border: 2px solid var(--black);
+}
+
+.schoolIcon2 {
+  position: absolute;
+  top: 20em;
+  left: -2rem;
+  background: var(--white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 50%;
+  border: 2px solid var(--black);
+}
+
+.schoolIcon3 {
+  position: absolute;
+  top: 27em;
+  left: -2rem;
+  background: var(--white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 50%;
+  border: 2px solid var(--black);
+}
