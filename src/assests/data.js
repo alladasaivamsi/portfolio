@@ -12,7 +12,7 @@ export const data = [
     title: "Crypto Tracker Website",
     description:
       "It provides real-time market data and tools to analyse crypto currency investments.It will use the CoinGecko API to retrieve up-to-date cryptocurrency data that will be displayed in visually intuitive formats and a comparison tool to analyse two coins side-by-side.",
-    techStack: "HTML, CSS, JavaScript, ReactJS.",
+    techStack: "HTML, CSS, JavaScript, ReactJS, Redux Toolkit",
     github: "https://github.com/alladasaivamsi/crypto-tracker-dashboard",
     liveLink: "https://crypto-tracker-dashboard-alladasaivamsi.vercel.app/",
   },

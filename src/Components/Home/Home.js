@@ -2,14 +2,8 @@ import React from "react";
 import "./Home.css";
 import image from "../../assests/Images/Image-removebg-preview.png";
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const Home = () => {
-  // const navigate = useNavigate();
-  // const handleNext = () => {
-  //   navigate("/about");
-  // };
   return (
     <div className="home">
       <div className="left">
@@ -33,15 +27,6 @@ const Home = () => {
           >
             FrontEnd Web Developer
           </motion.h3>
-          {/* <motion.h3
-            className="dynamic-skill skill2"
-            data-text="ProblemSolver"
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, delay: 1 }}
-          >
-            Problem Solver
-          </motion.h3> */}
         </h1>
         <motion.p
           className="text"
@@ -66,6 +51,7 @@ const Home = () => {
         <div className="btn">
           <motion.a
             className="link"
+            id="resume"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1.5 }}
