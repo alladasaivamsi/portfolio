@@ -1,10 +1,12 @@
-import HTMLImage from "../../src/assests/logos/HTML.png"
-import CSSImage from "../../src/assests/logos/CSS.png"
+import HTMLImage from "../../src/assests/logos/HTML.png";
+import CSSImage from "../../src/assests/logos/CSS.png";
 import JavaScriptImage from "../../src/assests/logos/JavaScript.webp";
 import ReactImage from "../../src/assests/logos/React.png";
 import ReduxImage from "../../src/assests/logos/Redux.webp";
 import MaterialUIImage from "../../src/assests/logos/Material UI.png";
 import BootstrapImage from "../../src/assests/logos/BootStrap.png";
+import FireBaseImage from "../../src/assests/logos/FireBase.png";
+import GitImage from "../../src/assests/logos/Git.png";
 
 export const skills = [
   {
@@ -30,7 +32,7 @@ export const skills = [
   {
     id: 5,
     image: ReduxImage,
-    description: "Redux",
+    description: "Redux ToolKit",
   },
   {
     id: 6,
@@ -41,5 +43,15 @@ export const skills = [
     id: 7,
     image: BootstrapImage,
     description: "Bootstrap",
+  },
+  {
+    id: 8,
+    image: FireBaseImage,
+    description: "FireBase",
+  },
+  {
+    id: 9,
+    image: GitImage,
+    description: "Git",
   },
 ];

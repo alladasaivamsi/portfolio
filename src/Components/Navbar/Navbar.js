@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
@@ -13,8 +12,6 @@ import image from "../../assests/Images/Image-removebg-preview.png";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [modeColor, setModeColor] = useState(true);
-
-  const navigate = useNavigate();
 
   useEffect(() => {
     if (localStorage.getItem("theme") === "dark") {
@@ -53,63 +50,26 @@ const Navbar = () => {
         transition={{ duration: 1 }}
       >
         <img src={image} alt="Image" className="navbar-image" />
-        Sai Vamsi
+        <span>Sai Vamsi</span>
       </motion.h2>
       <div className="nav_links">
-        {/* <Link to="/">
-          <motion.a
-            // onClick={() => navigate("/")}
-            className="link"
-            initial={{ opacity: 0, y: -50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.5 }}
-          >
-            Home
-          </motion.a>
-        </Link>
-        <motion.a
-          href="about"
-          // onClick={() => navigate("/about")}
-          className="link"
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
-        >
-          About
-        </motion.a>
         <motion.a
           className="link"
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
-        >
-          Projects
-        </motion.a>
-        <motion.a
-          className="link"
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
-        >
-          Contact
-        </motion.a> */}
-        <motion.a
-          className="link"
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
           href="https://drive.google.com/file/d/1rz5DnJ8CQVcqWa9beN0liaQJ4SRxVIMU/view?usp=sharing"
           target="blank"
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.5 }}
         >
           Resume
         </motion.a>
         <motion.a
           className="link"
+          href="https://www.linkedin.com/in/sai-vamsi-allada-b2751b237/"
+          target="blank"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1 }}
-          href="https://www.linkedin.com/in/sai-vamsi-allada-b2751b237/"
-          target="blank"
         >
           <LinkedInIcon />
         </motion.a>
